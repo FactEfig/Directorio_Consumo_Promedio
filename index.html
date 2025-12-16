@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Buscador por Contrato o Ciclo</title>
+  <title>Directorio consumo promedio Efigas</title>
+  <meta name="description" content="En este sitio podrá encontrar los datos de contratos específicos y también podrá buscar por ciclo. Esta información se actualizará periódicamente. Por lo cual contratos que no están no están actualmente en el sitio lo estarán a medida que se vayan haciendo actualizaciones.">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body { background:#f7f7fb; }
@@ -12,14 +13,13 @@
     .result-none { border-left: 5px solid #dc3545; }
     .small-muted { font-size:.9rem; color:#6c757d; }
     .footer { font-size:.85rem; color:#6c757d; }
-    table.table td, table.table th { vertical-align: middle; }
   </style>
 </head>
 <body>
   <div class="container py-4">
-    <header class="mb-4">
-      <h1 class="h5 text-center">Buscador público por Contrato o Ciclo</h1>
-      <p class="text-center small-muted">Búsqueda exacta. Contrato devuelve un único registro; Ciclo puede devolver múltiples contratos.</p>
+    <header class="mb-4 text-center">
+      <h1 class="h5">Directorio consumo promedio Efigas</h1>
+      <p class="small-muted">En este sitio podrá encontrar los datos de contratos específicos y también podrá buscar por ciclo. Esta información se actualizará periódicamente. Por lo cual contratos que no están no están actualmente en el sitio lo estarán a medida que se vayan haciendo actualizaciones.</p>
     </header>
 
     <div class="card p-3 mb-3">
@@ -45,7 +45,7 @@
     <div id="resultado"></div>
 
     <footer class="footer mt-4 text-center">
-      <span>© 2025 – Buscador público • Optimizado para celulares</span>
+      <span>© 2025 – Directorio consumo promedio Efigas</span>
     </footer>
   </div>
 
@@ -68,79 +68,31 @@
       const cont = document.getElementById('resultado');
       cont.innerHTML = '';
       if (!rec) {
-        cont.innerHTML = `
-          <div class="card p-3 result-none">
-            <h2 class="h6 mb-2">Sin coincidencias</h2>
-            <p>No encontramos ese contrato.</p>
-          </div>`;
+        cont.innerHTML = `<div class="card p-3 result-none"><h2 class="h6 mb-2">Sin coincidencias</h2><p>No encontramos ese contrato.</p></div>`;
         return;
       }
-      cont.innerHTML = `
-        <div class="card p-3 result-ok">
-          <h2 class="h6 mb-3">Resultado</h2>
-          <div class="table-responsive">
-            <table class="table table-sm">
-              <tbody>
-                <tr><th>Contrato</th><td>${rec.Contrato}</td></tr>
-                <tr><th>Ciclo</th><td>${rec.Ciclo || '-'}</td></tr>
-                <tr><th>Dirección</th><td>${rec.Direccion || '-'}</td></tr>
-                <tr><th>Teléfono</th><td>${rec.Telefono || '-'}</td></tr>
-                <tr><th>Observación</th><td>${rec.Observacion || '-'}</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>`;
+      cont.innerHTML = `<div class="card p-3 result-ok"><h2 class="h6 mb-3">Resultado</h2><div class="table-responsive"><table class="table table-sm"><tbody>
+        <tr><th>Contrato</th><td>${rec.Contrato}</td></tr>
+        <tr><th>Ciclo</th><td>${rec.Ciclo || '-'}</td></tr>
+        <tr><th>Dirección</th><td>${rec.Direccion || '-'}</td></tr>
+        <tr><th>Teléfono</th><td>${rec.Telefono || '-'}</td></tr>
+        <tr><th>Observación</th><td>${rec.Observacion || '-'}</td></tr>
+      </tbody></table></div></div>`;
     }
 
     function mostrarCiclo(recs) {
       const cont = document.getElementById('resultado');
       cont.innerHTML = '';
       if (!recs || recs.length === 0) {
-        cont.innerHTML = `
-          <div class="card p-3 result-none">
-            <h2 class="h6 mb-2">Sin coincidencias</h2>
-            <p>No encontramos contratos para ese ciclo.</p>
-          </div>`;
+        cont.innerHTML = `<div class="card p-3 result-none"><h2 class="h6 mb-2">Sin coincidencias</h2><p>No encontramos contratos para ese ciclo.</p></div>`;
         return;
       }
-      const filas = recs.map(r => `
-        <tr>
-          <td>${r.Contrato}</td>
-          <td>${r.Ciclo || '-'}</td>
-          <td>${r.Direccion || '-'}</td>
-          <td>${r.Telefono || '-'}</td>
-          <td>${r.Observacion || '-'}</td>
-        </tr>
-      `).join('');
-      cont.innerHTML = `
-        <div class="card p-3 result-ok">
-          <h2 class="h6 mb-3">Contratos del ciclo</h2>
-          <div class="table-responsive">
-            <table class="table table-sm">
-              <thead>
-                <tr>
-                  <th>Contrato</th>
-                  <th>Ciclo</th>
-                  <th>Dirección</th>
-                  <th>Teléfono</th>
-                  <th>Observación</th>
-                </tr>
-              </thead>
-              <tbody>
-                ${filas}
-              </tbody>
-            </table>
-          </div>
-        </div>`;
+      const filas = recs.map(r => `<tr><td>${r.Contrato}</td><td>${r.Ciclo || '-'}</td><td>${r.Direccion || '-'}</td><td>${r.Telefono || '-'}</td><td>${r.Observacion || '-'}</td></tr>`).join('');
+      cont.innerHTML = `<div class="card p-3 result-ok"><h2 class="h6 mb-3">Contratos del ciclo</h2><div class="table-responsive"><table class="table table-sm"><thead><tr><th>Contrato</th><th>Ciclo</th><th>Dirección</th><th>Teléfono</th><th>Observación</th></tr></thead><tbody>${filas}</tbody></table></div></div>`;
     }
 
     function mostrarError(msg) {
-      const cont = document.getElementById('resultado');
-      cont.innerHTML = `
-        <div class="card p-3 result-none">
-          <h2 class="h6 mb-2">Error</h2>
-          <p>${msg}</p>
-        </div>`;
+      document.getElementById('resultado').innerHTML = `<div class="card p-3 result-none"><h2 class="h6 mb-2">Error</h2><p>${msg}</p></div>`;
     }
 
     function buscar() {
@@ -164,9 +116,7 @@
     }
 
     document.getElementById('btnBuscar').addEventListener('click', buscar);
-    document.getElementById('valorInput').addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') buscar();
-    });
+    document.getElementById('valorInput').addEventListener('keydown', (e) => { if (e.key === 'Enter') buscar(); });
 
     cargarDatos();
   </script>
