@@ -1,23 +1,261 @@
 [
   {
-    "numero": "1001",
-    "cliente": "ACME S.A.",
-    "estado": "Pagado",
-    "fecha": "2025-11-30",
-    "monto": 250000
+    "Contrato": "1336314",
+    "Ciclo": "6307",
+    "Direccion": "KR 25 CL 41 - 13 APTO 101",
+    "Telefono": "3233193766",
+    "Observacion": "SEBASTIAN PEÑARANDA CASTRO CEDULA 1005101223 CELULAR - EN EL MOMENTO DE PRESENTARSE EN EL EDIFICIO LES SOLICITAMOS MARCAR AL NUMERO 202# EN EL CITOFONO PARA QUE SE LES PERMITA EL INGRESO ADICIONALMENTE PUEDEN COMUNICARSE AL NUMERO 3233193766 PARA CUALQUIER COORDINACION NECESARIA DIRECCION DE RESPUESTA KR 25 CL 41 - 13 APTO 101"
   },
   {
-    "numero": "1002",
-    "cliente": "Beta Ltda",
-    "estado": "Pendiente",
-    "fecha": "2025-12-05",
-    "monto": 480000
+    "Contrato": "362732",
+    "Ciclo": "6626",
+    "Direccion": "VIA ARMENIA SECTOR LA CASONA CS- 5 CONDOM TOPANGA 2",
+    "Telefono": "3206323522",
+    "Observacion": "USEN LOS TIMBRES O CITOFONOS QUE HAY EN PORTERIA PARA NOTIFICAR LA VISITA"
   },
   {
-    "numero": "1003",
-    "cliente": "Gamma SAS",
-    "estado": "Vencido",
-    "fecha": "2025-12-01",
-    "monto": 120000
+    "Contrato": "597756",
+    "Ciclo": "6626",
+    "Direccion": "VIA ARMENIA CS- 8 COND. TOPANGA II SECT. LA CASONA",
+    "Telefono": "3206323522",
+    "Observacion": "USEN LOS TIMBRES O CITOFONOS QUE HAY EN PORTERIA PARA NOTIFICAR LA VISITA"
+  },
+  {
+    "Contrato": "364943",
+    "Ciclo": "6626",
+    "Direccion": "VIA ARMENIA SECTOR LA CASONA CS- 4 CONDOM TOPANGA 2",
+    "Telefono": "3206323522",
+    "Observacion": "USEN LOS TIMBRES O CITOFONOS QUE HAY EN PORTERIA PARA NOTIFICAR LA VISITA"
+  },
+  {
+    "Contrato": "1545422",
+    "Ciclo": "6309",
+    "Direccion": "VIA ARMENIA/TEBAIDA - VDA CLARO DE LUNA LT LA AURORA",
+    "Telefono": "3142808610",
+    "Observacion": "Medidior a un costado de la reja"
+  },
+  {
+    "Contrato": "544638",
+    "Ciclo": "1717",
+    "Direccion": "KR 23 CL 69 - 9 LOCAL RESTAURANTE MANIMEZ",
+    "Telefono": "3205888539",
+    "Observacion": "el cliente informa que el medidor fue instalado en la parte posterior del predio."
+  },
+  {
+    "Contrato": "1307994",
+    "Ciclo": "6317",
+    "Direccion": "VIA ARMENIA CIRCASIA KM 1 FINCA LA FLORESTA VDA SAN JUAN CARAVAAS COMIDA",
+    "Telefono": "3023502380",
+    "Observacion": "Sergio Sanabria cel 3023502380 -"
+  },
+  {
+    "Contrato": "1535265",
+    "Ciclo": "6626",
+    "Direccion": "VTE CONDINA VEREDA EL GUAYABO MZ 1365 NUPR 1 FINCA EL TOPACIO",
+    "Telefono": "3116301103",
+    "Observacion": "María Domelia, celular"
+  },
+  {
+    "Contrato": "61226",
+    "Ciclo": "6316",
+    "Direccion": "CL 19A KR 4 - 41",
+    "Telefono": "3005096724",
+    "Observacion": "Yasmin Campuzano cel 3005096724"
+  },
+  {
+    "Contrato": "531432",
+    "Ciclo": "6316",
+    "Direccion": "PATIO BONITO ALTO MZN K CS- 53",
+    "Telefono": "3137693176",
+    "Observacion": "Helmer muñoz cel 3137693176"
+  },
+  {
+    "Contrato": "69649",
+    "Ciclo": "6316",
+    "Direccion": "CL 19A KR 5 - 37",
+    "Telefono": "3233185291",
+    "Observacion": "Elizabeth garzón"
+  },
+  {
+    "Contrato": "93204",
+    "Ciclo": "6315",
+    "Direccion": "KR 19 CL 33 - 43 APTO 203",
+    "Telefono": "3113075466",
+    "Observacion": "señor Nelson de Jesus Hernandez propietario del apto 203, celular 3113075466, él nos colabora con dar el acceso."
+  },
+  {
+    "Contrato": "93210",
+    "Ciclo": "6315",
+    "Direccion": "KR 19 CL 33 - 43 PISO 201",
+    "Telefono": "3113075466",
+    "Observacion": "señor Nelson de Jesus Hernandez propietario del apto 203, celular 3113075466, él nos colabora con dar el acceso."
+  },
+  {
+    "Contrato": "93201",
+    "Ciclo": "6315",
+    "Direccion": "KR 19 CL 33 - 43 APTO 2",
+    "Telefono": "3113075466",
+    "Observacion": "señor Nelson de Jesus Hernandez propietario del apto 203, celular 3113075466, él nos colabora con dar el acceso."
+  },
+  {
+    "Contrato": "93205",
+    "Ciclo": "6315",
+    "Direccion": "KR 19 CL 33 - 43 APTO 3",
+    "Telefono": "3113075466",
+    "Observacion": "señor Nelson de Jesus Hernandez propietario del apto 203, celular 3113075466, él nos colabora con dar el acceso."
+  },
+  {
+    "Contrato": "1377016",
+    "Ciclo": "6615",
+    "Direccion": "LOS PINOS MZ B CASA 18 INT 1",
+    "Telefono": "3122144571",
+    "Observacion": "Cliente se llama francisco"
+  },
+  {
+    "Contrato": "566406",
+    "Ciclo": "1716",
+    "Direccion": "CL 8 ------ CRA 2 ------ AL FRENTE ------ DE LA ESCUELA",
+    "Telefono": "3122144571",
+    "Observacion": "Cliente se llama francisco"
+  },
+  {
+    "Contrato": "729235",
+    "Ciclo": "6302",
+    "Direccion": "VIA ARMENIA CIRCASIA VECINO BAR MARIA JUANA PISO 02",
+    "Telefono": "3016402575",
+    "Observacion": "JULIAN ARTURO ARIAS GIRALDO"
+  },
+  {
+    "Contrato": "729252",
+    "Ciclo": "6302",
+    "Direccion": "VIA ARMENIA CIRCASIA VECINO BAR MARIA JUANA BAJOS",
+    "Telefono": "3016402575",
+    "Observacion": "JULIAN ARTURO ARIAS GIRALDO"
+  },
+  {
+    "Contrato": "784031",
+    "Ciclo": "6302",
+    "Direccion": "VIA ARMENIA CIRCASIA VECINO BAR MARIA JUANA APTO 01",
+    "Telefono": "3016402575",
+    "Observacion": "JULIAN ARTURO ARIAS GIRALDO"
+  },
+  {
+    "Contrato": "1332899",
+    "Ciclo": "6302",
+    "Direccion": "CL 8 KR 3 - 11 CASA 2A",
+    "Telefono": "3202360862",
+    "Observacion": "GLEDYS STELLA"
+  },
+  {
+    "Contrato": "1535675",
+    "Ciclo": "6317",
+    "Direccion": "KR 19 CL 22 NORTE - 104 TORRE 4 APTO 1106 CONJ_RES MEDITERRANEO",
+    "Telefono": "320 2645443",
+    "Observacion": "señora IVONNE celular: 320 2645443."
+  },
+  {
+    "Contrato": "102753",
+    "Ciclo": "6316",
+    "Direccion": "KR 16 CL 17 - 15 APTO 503 EDIF. ESCOBAR BOTERO",
+    "Telefono": "3113075466",
+    "Observacion": "Nelson de Jesus Hernandez propietario del apto 203, celular 311 3075466, él nos colabora con dar el acceso."
+  },
+  {
+    "Contrato": "102759",
+    "Ciclo": "6303",
+    "Direccion": "GUAYACANES MZN 10 CS- 10",
+    "Telefono": "3113075466",
+    "Observacion": "Nelson de Jesus Hernandez propietario del apto 203, celular 311 3075466, él nos colabora con dar el acceso."
+  },
+  {
+    "Contrato": "102750",
+    "Ciclo": "6317",
+    "Direccion": "CL 9 NORTE KR 21 - 51 BLOQUE 1 APTO 503 CONJ_RES YULIMA III",
+    "Telefono": "3113075466",
+    "Observacion": "Nelson de Jesus Hernandez propietario del apto 203, celular 311 3075466, él nos colabora con dar el acceso."
+  },
+  {
+    "Contrato": "102754",
+    "Ciclo": "6314",
+    "Direccion": "ZULDEMAYDA MZN 18 CS- 3 PS- 2",
+    "Telefono": "3113075466",
+    "Observacion": "Nelson de Jesus Hernandez propietario del apto 203, celular 311 3075466, él nos colabora con dar el acceso."
+  },
+  {
+    "Contrato": "557011",
+    "Ciclo": "1716",
+    "Direccion": "CL 6 KR 5 - 15 PISO 1",
+    "Telefono": "3234268547",
+    "Observacion": "Celular: 323 4268547 señora Aracelly - la señora indica que deja la llave siempre al lado en un taller."
+  },
+  {
+    "Contrato": "557013",
+    "Ciclo": "1716",
+    "Direccion": "CL 6 KR 5 - 15 PISO 2",
+    "Telefono": "3234268547",
+    "Observacion": "Celular: 323 4268547 señora Aracelly - la señora indica que deja la llave siempre al lado en un taller."
+  },
+  {
+    "Contrato": "607786",
+    "Ciclo": "1716",
+    "Direccion": "BARR RENAN BARCO MZN 62 CS- 9",
+    "Telefono": "3234268547",
+    "Observacion": "Celular: 323 4268547 señora Aracelly - la señora indica que deja la llave siempre al lado en un taller."
+  },
+  {
+    "Contrato": "868485",
+    "Ciclo": "1716",
+    "Direccion": "CL 5C KR 1E NUPR 9 PASAJE 2 PISO 2",
+    "Telefono": "3234268547",
+    "Observacion": "Celular: 323 4268547 señora Aracelly - la señora indica que deja la llave siempre al lado en un taller."
+  },
+  {
+    "Contrato": "614112",
+    "Ciclo": "6608",
+    "Direccion": "KR 13 CL 87 - 763 BODEGA 6 INDUSTRIA A.MONSERRAT",
+    "Telefono": "3144203947",
+    "Observacion": "GLORIA INES LOPEZ VARGAS//CEL: 3144203947"
+  },
+  {
+    "Contrato": "81482",
+    "Ciclo": "6303",
+    "Direccion": "LA ESTACION MZN A CS- 12 PS- 1",
+    "Telefono": "3148858097",
+    "Observacion": "SARACELLY VALLEJO OROZCO CELULAR 3148858097"
+  },
+  {
+    "Contrato": "222704",
+    "Ciclo": "6609",
+    "Direccion": "MZN 4 CS-62",
+    "Telefono": "3177168905",
+    "Observacion": "Leonardo Perez TELEFONO: 3177168905"
+  },
+  {
+    "Contrato": "267612",
+    "Ciclo": "6609",
+    "Direccion": "NUEVO SOL FINCA LA CAROLINA",
+    "Telefono": "3116356600",
+    "Observacion": "TEL: 3116356600-3006534076; MARIA"
+  },
+  {
+    "Contrato": "282535",
+    "Ciclo": "6609",
+    "Direccion": "AV. 30DEAGOSTO CL 87 - 462",
+    "Telefono": "3113385928",
+    "Observacion": "TEL: 3113385928 - MARIA LUCENA"
+  },
+  {
+    "Contrato": "461496",
+    "Ciclo": "1701",
+    "Direccion": "KR 8C CL 54 - 19",
+    "Telefono": "3148423320",
+    "Observacion": "cenelia naranjo TELEFONO: 3148423320"
+  },
+  {
+    "Contrato": "465528",
+    "Ciclo": "1701",
+    "Direccion": "KR 2G CL 48C - 74",
+    "Telefono": "3218361401",
+    "Observacion": "Maria Yolanda glacia TELEFONO: 3218361401"
   }
 ]
