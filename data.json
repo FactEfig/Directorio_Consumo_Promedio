@@ -1,0 +1,23 @@
+[
+  {
+    "numero": "1001",
+    "cliente": "ACME S.A.",
+    "estado": "Pagado",
+    "fecha": "2025-11-30",
+    "monto": 250000
+  },
+  {
+    "numero": "1002",
+    "cliente": "Beta Ltda",
+    "estado": "Pendiente",
+    "fecha": "2025-12-05",
+    "monto": 480000
+  },
+  {
+    "numero": "1003",
+    "cliente": "Gamma SAS",
+    "estado": "Vencido",
+    "fecha": "2025-12-01",
+    "monto": 120000
+  }
+]
